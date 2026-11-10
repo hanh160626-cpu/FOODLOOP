@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+
+# Local database and SQLite journal files contain application data.
+backend/*.sqlite3
+backend/*.sqlite3-*
+backend/*.db
+backend/*.db-*
+
+# Local environment and editor files.
+.env
+.env.*
+!.env.example
+.vscode/
